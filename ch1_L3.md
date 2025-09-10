@@ -491,7 +491,9 @@ flights |>
 #> # ℹ 336,770 more rows
 #> # ℹ 11 more variables: arr_delay <dbl>, carrier <chr>, flight <int>, …
 ```
-اگر تعداد زیادی ستون با نام‌های نامتناسب دارید و ویرایش دستی همه آنها دشوار است، از `()janitor::clean_names`[https://sfirke.github.io/janitor/reference/clean_names.html] استفاده کنید که پاکسازی خودکار مفیدی را ارائه می‌دهد.
+اگر تعداد زیادی ستون با نام‌های نامتناسب دارید و ویرایش دستی همه آنها دشوار است، از `()janitor::clean_names` 
+[`janitor::clean_names()`](https://sfirke.github.io/janitor/reference/clean_names.html)
+استفاده کنید که پاکسازی خودکار مفیدی را ارائه می‌دهد.
 
 ### 4.3.3 تابع `()relocate`
 
